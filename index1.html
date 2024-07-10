@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stock</title>
+    <link rel="stylesheet" href="./index1.css" />
+  </head>
+  <body>
+    <section>
+      <article>
+        <div class="one">
+
+
+          <form action="#">
+            <h2>Signin</h2>
+            <input type="email" placeholder="Email" required />
+            <input type="password" placeholder="Password" required>
+            <button id="btn" onclick="formHandle()">Submit</button>
+          </form>
+
+
+          <span>or signin with</span>
+        </div>
+
+
+        <div class="two">
+          <h2>Dashboard</h2>
+          <p>
+           <select id="stock-select" style="width: 120%; height: 40px;">
+            <option value="">Select a stock</option>
+            <option value="GOOG">GOOG</option>
+            <option value="TSLA">TSLA</option>
+            <option value="AMZN">AMZN</option>
+            <option value="META">META</option>
+            <option value="NVDA">NVDA</option>
+          </select>
+          </p>
+          <br>
+          <button id="subscribe-btn">Subscribe</button>
+        </div>
+      </article>
+    </section>
+    <script src="./index1.js"></script>
+  </body>
+</html>
